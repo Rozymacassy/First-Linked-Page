@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(2.jpg); 
+}
+.box{
+    margin: 40px;
+    margin-top: 350px;
+    width:auto;
+    padding: 100px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 235, 205, 0.63);
+    text-align: center ;
+    
+    }
+    .navbar{
+        margin: auto;
+        padding: 10px;
+       width:auto;
+       height: 100px;
+       display: flex;
+       flex-direction: row;
+    }
+    .navbar a{
+        margin: auto;
+        padding: auto;
+        text-decoration: none;
+      color:white;
+    }
+
+    a{
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-decoration: none;
+      margin: 40px;
+      transition: 0.4s ease-in-out;
+  }
+  
+  a:hover{
+      color: rgb(89, 0, 255);
+  }
+
+    #fname{
+        background:none;
+        margin:20px auto;
+        border:2px solid #802ecc;
+        padding: 14px 40px;    
+        border-radius: 24px; 
+    }
+
+    #lname{
+        background:none;
+        margin:20px auto;
+        border:2px solid #802ecc;
+        padding: 14px 40px;    
+        border-radius: 24px; 
+  }
+
+  #email{
+    background:none;
+    margin:20px auto;
+    border:2px solid #802ecc;
+    padding: 14px 40px;    
+    border-radius: 24px; 
+  }
+
+  #gender{
+    background:none;
+    margin:20px auto;
+    border:2px solid #802ecc;
+    padding: 14px 40px;    
+    border-radius: 24px; 
+  }
+  #country{
+    background:none;
+    margin:20px auto;
+    border:2px solid #802ecc;
+    padding: 14px 40px;    
+    border-radius: 24px; 
+  }
+  
+  #pnumber{
+    background:none;
+    margin:20px auto;
+    border:2px solid #802ecc;
+    padding: 14px 40px;    
+    border-radius: 24px; 
+  }
+  #sp{
+    background:none;
+    margin:20px auto;
+    border:2px solid #802ecc;
+    padding: 14px 40px;    
+    border-radius: 24px; 
+  }
+  #password{
+    background:none;
+    margin:20px auto;
+    border:2px solid #802ecc;
+    padding: 14px 40px;    
+    border-radius: 24px; 
+  }
+  #cpassword{
+    background:none;
+    margin:20px auto;
+    border:2px solid  #802ecc;
+    padding: 14px 40px;    
+    border-radius: 24px;   
+  }
+
+
+.box input[type ="text"]:focus,.box input[type = "password"]:focus{
+
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box input[type ="submit"]{
+border:0;
+background:none;
+display:block;
+margin:20px auto;
+text-align: center;
+border:2px solid #802ecc;
+padding: 14px 40px;    
+outline: none;
+color: black;
+border-radius: 24px;
+transition: 0.25s;
+cursor: pointer;
+}
+.box input[type ="submit"]:hover{
+    background: #2ecc71;
+}
+
+ .foot{
+color: red
+ }

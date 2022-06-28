@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    background: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    
+}
+.logo{
+    color: orangered;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+
+#box{
+margin: 0px;
+padding: 0px;
+display: flex;
+width: 100%;
+margin-left: 20px;
+}
+
+.menu{
+    margin-left: 20px;
+    width: 70%;
+    float: left;
+    font-weight: bold;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style:none;
+    margin: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orangered;
+}
+
+h4{
+    text-align: left;
+    color:red;
+    font-size: xx-large;
+    font-family: 'Courier New';
+}
+p{
+color: rgb(233, 235, 236);
+font-size: 18px;
+font-weight: lighter;
+font-family: 'segoe UI';
+}
+
+.myphoto{
+    margin: 10px;
+    padding: 4px;
+    width: auto;
+    height: auto;
+}
+
+
+.myphoto img{
+    margin: 0px;
+    padding: 10px;
+    width: 200px;
+    height:330px;
+    object-fit:contain;
+    object-position: center;
+}
+
+.myphoto p{
+    margin: 0px;
+    padding: 0px;
+  font-size: 22px;
+  color: antiquewhite;
+  font-family: 'Segoe UI';
+}
+
+marquee a{
+   text-decoration: none;
+  color: red;
+  font-weight: bold;
+  font-size: 25px  
+}
+}
+
+.aboutme{
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+    width: auto;
+}
+
+.aboutme #hobs{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+ 
+}
+
+#hobs ul{
+    margin: 10px;
+    padding: 1px;
+    list-style-type: none;
+    display: block;
+}
+
+#hobs ul li{
+ margin: 3px;
+ padding: 6px;
+ font-size: 18px;
+ color: rgb(233, 235, 236);
+ font-size: 18px;
+ font-weight: lighter;
+ font-family: 'segoe UI';
+}
+
+.aboutme .ski{
+    margin: 20px;
+    padding: 0px;
+    width: 100%;
+    margin-left: 500px;
+    color: rgb(233, 235, 236);
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'segoe UI';
+    
+}
+
+.aboutme .ski ol {
+    margin: 2x;
+    padding: 3px;
+}
+
+
+.aboutme .prior{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-left: 900px;
+    color: rgb(233, 235, 236);
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'segoe UI';
+}
+
+.prior ol li{
+    margin: 3px;
+    padding: 6px;
+    font-size: 18px;
+    margin-left: 0px;
+    color: white;
+   }
+
+   .ski ol li{
+    margin: 3px;
+    padding: 6px;
+    font-size: 18px;
+    color: white;
+   }
+ .foot{
+color: #fff   }
+
+.foot a{
+     text-decoration: none;
+    color: red;
+  font-weight: bold;
+  font-size: 25px  
+}
