@@ -19,6 +19,7 @@ background-color: rgba(128, 128, 128, 0.466);
 font-size: 27px;
 font-weight: lighter;
 border-radius: 10px;
+
 }
 
 .navbar{
@@ -36,7 +37,7 @@ a{
     color: white;
     text-decoration: none;
     margin: 40px;
-    transition: 0.4s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 
 a:hover{
@@ -72,6 +73,7 @@ border:2px solid #2ecc71;
 padding: 41px 40px;    
 border-radius: 20px;
 transition: 0.25s;
+color: red;
 
 }
 #name{
@@ -80,6 +82,8 @@ margin:20px auto;
 border:2px solid #2ecc71;
 padding: 14px 40px;    
 border-radius: 24px;
+color: red;
+
 }
 
 #email{
@@ -88,6 +92,7 @@ border-radius: 24px;
     border:2px solid #2ecc71;
     padding: 14px 40px;    
     border-radius: 24px;
+    color: red;
 }
 .box input[type ="submit"]{
 border:0;

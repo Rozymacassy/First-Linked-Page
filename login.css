@@ -29,7 +29,7 @@ ul li a{
     font-family: Arial;
     color: white;
     font-weight: bold;
-    transition: 0.4s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 ul li a:hover{
     color: orangered;
@@ -50,7 +50,6 @@ ul li a:hover{
     font-weight: 500;
 }
 .box input{
-  border:0;
   background:none;
   display:block;
   margin:20px auto;  
@@ -71,7 +70,6 @@ ul li a:hover{
 }
 
 .box input[type ="submit"]{
-    border:0;
 background:none;
 display:block;
 margin:20px auto;
